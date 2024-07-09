@@ -1,5 +1,7 @@
 # rock-paper-scissor
-import random
+
+        user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
+        if user_choice nimport random
 
 def get_computer_choice():
     choices = ["rock", "paper", "scissors"]
@@ -21,9 +23,7 @@ def main():
 
     print("Welcome to Rock-Paper-Scissors Game!")
 
-    while True:
-        user_choice = input("Enter your choice (rock, paper, or scissors): ").lower()
-        if user_choice not in ["rock", "paper", "scissors"]:
+    while True:ot in ["rock", "paper", "scissors"]:
             print("Invalid choice! Please choose rock, paper, or scissors.")
             continue
 
