@@ -1,9 +1,4 @@
 # rock-paper-scissor
-
-Sumanth Deharam <sumanthdeharam22@gmail.com>
-Tue, Jun 11, 11:10 AM
-to me
-
 import random
 
 def get_computer_choice():
